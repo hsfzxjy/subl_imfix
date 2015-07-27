@@ -18,6 +18,8 @@ Compile:
 gcc -shared -o libsublime-imfix.so sublime-imfix.c `pkg-config --libs --cflags gtk+-2.0` -fPIC
 ```
 
+Move `libsublime-imfix.so` into `/opt/sublime_text/`.
+
 Modify `/usr/bin/subl`:
 
 ```sh
